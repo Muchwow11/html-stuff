@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formos</title>
+</head>
+<body>
+	<h1>Uzklausos forma</h1>
+		<form method="post">
+				<fieldset>
+					<input type="text" placeholder="Username" name="firstName" required>
+				</fieldset>
+				<fieldset>
+					<input type="text" placeholder="Last name" name="lastName">
+				</fieldset>
+				<input list="departaments" placeholder="PASIRINKITE PADALKINI" required>
+				<datalist id="departaments" required>
+					<option>IT</option>
+					<option>B-E</option>
+					<option>HR</option>
+				</datalist> 
+			<label>data</label>
+			<input type="date" name="date">
+			<fieldset>
+				<label>akiu spalva</label>
+				<input type="color" name="color">
+			</fieldset>
+			<fieldset>
+				<textarea placeholder="Pranesimas"></textarea>
+			</fieldset>
+			<fieldset>
+				<label>Papildomi duomenys</label>
+				<input type="file" name="files">
+			</fieldset>
+			<fieldset>
+				<label>Sutinku su Taisyklem</label>
+				<input type="checkbox" name="rules">
+			</fieldset>
+			<button type="Submit">Enter</button>
+		</form>
+
+</body>
+</html>

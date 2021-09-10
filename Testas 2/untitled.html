@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Testas 2</title>
+</head>
+<body>
+     <h1>Testas</h1>
+     <h2>Duomenu info:</h2>
+     <form method="post">
+     	<fieldset>
+     		<label>El. pasto adresas:*</label>
+     		<input type="text" name="email" required>
+     	</fieldset>
+     	<fieldset>
+     		<label>Slaptazodis:*</label>
+     		<input type="password" name="passWord" required>
+     	</fieldset>
+     	<fieldset>
+     		<label>Patvirtinti slaptazodi:*</label>
+     		<input type="password" name="passCheck" required>
+     	</fieldset>
+     	<fieldset>
+     		<input type="checkbox" name="rules" checked required>
+     		<label>Sutinku su taisyklemis.*</label>
+     	</fieldset> 
+     <h2>Pasitikrinkite saskaitos adresa</h2>
+     	<fieldset>
+     		<label>Lytis:*</label>
+     		<input list="sex" required>
+     		<datalist id="sex">
+     			<option>Moteris</option>
+     			<option>Vyras</option>
+     			<option>Kita</option>
+     		</datalist>
+		</fieldset>
+		<fieldset>
+			<label>Vardas:*</label>
+			<input type="text" name="name" required>
+		</fieldset>
+		<fieldset>
+			<label>Pavarde:*</label>
+			<input type="text" name="surName" required> 
+		</fieldset>
+		<fieldset>
+			<label>Gatve, namo(buto) nr.:*</label>
+			<input type="text" name="adress" required>
+			<input type="number" name="adressNum" required>
+		</fieldset>
+		<fieldset>
+			<label>Pasto kodas:*</label>
+			<input type="text" name="postCode" required>
+			<a href="https://www.post.lt/pasto-kodu-ir-adresu-paieska">Pasto kodo paieska</a>
+		</fieldset>
+		<fieldset>
+			<label>Miestas:*</label>
+			<input type="text" name="city" required>
+		</fieldset>
+		<fieldset>
+			<label>Salis:*</label>
+			<input list="country" required>
+			<datalist id="country">
+				<option>Vokietyja</option>
+				<option>Lietuva</option>
+				<option>Anglija</option>
+			</datalist>
+		</fieldset>
+		<fieldset>
+			<label>Telefonas:*</label>
+			<input type="number" name="phoneNum" required>
+		</fieldset>
+		<fieldset>
+			<label>Papildoma info:</label>
+			<textarea></textarea>
+		</fieldset>
+
+		<!--
+		<fieldset>
+			<label>Telefono modelis</label>
+			<select>
+				<option selected disabled>-</option>
+				<option>Nokia</option>
+				<option>Samsung</option>
+			</select>
+		</fieldset>
+	-->
+
+		<fieldset>
+			<label></label>
+		</fieldset>
+		<fieldset>
+			<button type="submit">Registruotis</button>
+		</fieldset>
+		
+     </form>
+
+</body>
+</html>
