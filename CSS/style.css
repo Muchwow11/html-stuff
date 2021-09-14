@@ -1,0 +1,51 @@
+/*
+*{
+	border: 1px black solid;
+}  */
+
+p {
+	color:  #FF5733;
+}
+#nedraugas{
+
+	color: silver;
+}
+
+.bg-red{
+	background-color: green;
+	color: silver;
+}
+
+.big-text{
+	font-size: 5em;
+}
+
+.hide{
+	display: none;
+}
+ul li a:hover{
+	color: greenyellow;
+}
+
+ul li a{
+	color: green;
+}
+
+ul li a[href="http://www.kitm.lt"]{
+
+	color:  red;
+}
+
+ul li a[href$=".pdf"]{
+
+	color: green;
+}
+ul li a[href$=".xlsx"]{
+	color: blue;
+}
+ul li a[href$=".pptx"]{
+	color: tomato;
+}
+ul :nth-child(2n+1){
+	background-color: beige;
+}
