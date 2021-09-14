@@ -1,0 +1,12 @@
+p{
+	font-family: 'Karantina', cursive;
+	font-size: 2em;
+	font-style: italic;
+	text-transform: lowercase;
+	text-decoration: underline;
+	text-align: justify;
+}
+p:hover{
+	background-color: mediumvioletred;
+	color: white;
+}
