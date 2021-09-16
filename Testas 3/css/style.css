@@ -17,7 +17,6 @@ header p{
 	border-bottom: 2px solid #000;
 	padding: 20px;
 	font-size: 1.5em
-
 }
 
 section{
@@ -47,12 +46,8 @@ section article h2{
 
 section article p{
 	width: 200px;
-	text-align: left;
 }
 
-section article:last-child{
-	padding-right: 0px;
-}
 
 footer{
 	width: 400px;
