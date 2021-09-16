@@ -5,7 +5,6 @@
 }
 
 header img{
-	width: 80%;
 	display: block;
 	margin: 0 auto;
 }
@@ -21,11 +20,17 @@ header p{
 
 }
 
+section{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
 section article{
 	display: inline-block;
-	width: 15%;
-	margin: 0 auto;
-	padding: 65px;
+	text-align: center;
+	padding: 20px;
 }
 
 section article h2{
@@ -36,7 +41,7 @@ section article h2{
 
 .fa-angle-double-right{
 	display: inline-block;
-	padding: 10px;
+	padding-left: 10px;
 	font-size: 25px;
 	opacity: 0.5
 }
@@ -46,7 +51,9 @@ section article p{
 	text-align: left;
 }
 
-
+section article:last-child{
+	padding-right: 0px;
+}
 
 footer{
 	width: 400px;
