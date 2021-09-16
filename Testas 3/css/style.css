@@ -1,13 +1,12 @@
 .container{
+	font-family: 'Lobster', cursive;
 	width: 100%;
 	margin: 0 auto;
 }
-header {
 
-}
 header img{
-	display: block;
 	width: 80%;
+	display: block;
 	margin: 0 auto;
 }
 header h1{
@@ -17,16 +16,44 @@ header p{
 	text-align: center;
 	border-top: 2px solid #000;
 	border-bottom: 2px solid #000;
+	padding: 20px;
+	font-size: 1.5em
 
 }
-section h2{
-	display: inline-block ;
-}
+
 section article{
 	display: inline-block;
+	padding: 65px;
 }
 
 section article p{
 	width: 200px;
+	text-align: left;
+}
+
+section article h2{
+	font-size: 2em;
+}
+
+footer{
+	width: 400px;
+	display: block;
+	margin: 0 auto;
+}
+
+footer img{
+	display: inline-block;
+	width: 30px
+}
+footer h3{
+	display: inline-block;
 	text-align: center;
+	padding-left: 10px;
+}
+
+footer p{
+	display: inline-block;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	padding-left: 5px;
 }
