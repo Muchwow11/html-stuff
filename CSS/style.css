@@ -49,3 +49,8 @@ ul li a[href$=".pptx"]{
 ul :nth-child(2n+1){
 	background-color: beige;
 }
+
+.fa-amazon-pay{
+
+ font-size: 3em;
+}
