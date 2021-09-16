@@ -22,8 +22,20 @@ header p{
 }
 
 section article{
+	width: 15%;
 	display: inline-block;
+	margin: 0 auto;
 	padding: 65px;
+}
+
+section article h2{
+	display: inline-block;
+	text-align: center;
+	font-size: 2em;
+}
+
+.fa-angle-double-right{
+	display: inline-block;
 }
 
 section article p{
@@ -31,9 +43,7 @@ section article p{
 	text-align: left;
 }
 
-section article h2{
-	font-size: 2em;
-}
+
 
 footer{
 	width: 400px;
