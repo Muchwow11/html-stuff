@@ -1,6 +1,6 @@
 .container{
 	font-family: 'Lobster', cursive;
-	width: 100%;
+	width: 80%;
 	margin: 0 auto;
 }
 
@@ -20,7 +20,7 @@ header p{
 }
 
 section{
-	width: 80%;
+	width: 100%;
 	display: block;
 	margin: 0 auto;
 	text-align: center;

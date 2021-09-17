@@ -1,0 +1,66 @@
+
+.container{
+	background-color: grey;
+	height: 1000px;
+	position: relative;
+	text-align: center;
+}
+
+section{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+
+}
+section div{
+	padding: 65px;
+}
+section :nth-child(2){
+	background-color: red;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	bottom: 50%;
+	right: 38%;
+}
+section :nth-child(3){
+	background-color: green;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	bottom: 28%;
+	right: 38%;
+}
+section :nth-child(4){
+	background-color: cyan;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 0;
+	left: 0;
+}
+section :nth-child(5){
+	background-color: purple;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	top: 0;
+	right: 0;
+}
+section :nth-child(6){
+	background-color: blue;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	bottom: 0;
+	left: 0;
+}
+section :nth-child(7){
+	background-color: orange;
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	bottom: 0;
+	right: 0;
+}

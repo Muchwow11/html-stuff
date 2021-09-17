@@ -1,0 +1,45 @@
+*{
+	box-sizing: border-box;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 80%;
+	height: 300px;
+
+}
+
+header{
+	background-color: skyblue;
+
+}
+
+.hero{
+	background-color: silver;
+}
+
+.side{
+	background-color: darkgreen;
+}
+
+main article{
+	background-color: yellow;
+}
+
+main div{
+	background-color: darkgrey;
+}
+
+.img{
+	background-color: limegreen;
+}
+
+.post{
+	background-color: pink;
+}
+
+footer{
+	background-color: orange;
+}

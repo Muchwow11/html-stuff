@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	width: 80%;
+	background-color: #eee;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #eeff88;
+	height: 200px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.wraper{
+	background-color: #00ff88;
+}
+
+main{
+	width: 60%;
+	background-color: #00ee88;
+}
+
+aside{
+	width: 40%;
+	background-color: #ddee88;
+}
+
+main,aside{
+	float: left;
+	padding: 20px;
+}
+footer{
+	background-color: #aaee88;
+	clear: both;
+	height: 100px;
+}
