@@ -3,42 +3,86 @@
 }
 
 .container{
+	color: #fff;
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
-	width: 80%;
-	height: 300px;
+	width: 60%;
 }
 
 header{
+	margin-bottom: 10px;
+	text-align: center;
 	background-color: skyblue;
-	
+
+}
+
+.topSection{
+	display: flex;
+	justify-content: space-between;
+	min-height: 500px;
+	text-align: center;
+	margin-bottom: 5px
+}
+
+.left{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 0.25;
+	margin-right: 5px;
+
 }
 
 .hero{
 	background-color: silver;
+	flex-grow: 1;
+	margin-bottom: 10px;
 }
 
 .side{
 	background-color: darkgreen;
+	flex-grow: 2;
 }
 
-main article{
-	background-color: yellow;
+.right{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 0.75
 }
 
-main div{
+main{
+	background-color: #ffce6b;
+	flex-grow: 0.8;
+	margin-bottom: 5px;
+}
+
+.right div{
 	background-color: darkgrey;
+	flex-grow: 0.2
+}
+
+.bottomSection{
+	min-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-bottom: 5px
 }
 
 .img{
+	display: flex;
 	background-color: limegreen;
+	flex-grow: 0.8;
+	flex-direction: column;
+	margin-right: 5px;
 }
 
 .post{
 	background-color: pink;
+	flex-grow: 0.2
 }
 
 footer{
 	background-color: orange;
+	text-align: center;
 }
