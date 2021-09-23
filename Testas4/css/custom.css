@@ -1,9 +1,12 @@
+.container-fluid{
+	color: #fff
+}
+
 .r1{
 	text-align: center;
 }
 
 .hd-1{
-	color: #fff;
 	background-color: #545454;
 }
 
@@ -13,13 +16,38 @@
 
 h1{
 	padding-top: 30px;
+	font-size: 5em
+}
+
+hr{
+	border: 1px solid red
+}
+
+.line{
+	background-color: red;
+	width: 8em;
 }
 
 .r2{
 	text-align: center;
-	
 }
 
 .log-1{
 	background-color: #ffee00;
+}
+
+.log-2{
+	background-color: #ffb700
+}
+
+.log-3{
+	background-color: #ff8800
+}
+
+.log-4{
+	background-color: #ff7700
+}
+
+.log-5{
+	background-color: #ffe600
 }
