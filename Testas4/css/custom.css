@@ -1,35 +1,62 @@
-.container-fluid{
-	color: #fff
+.r1{
+	color: #fff;
 }
 
-.r1{
-	text-align: center;
+.fa-envelope{
+	background-color: #fff;
+	left: 0px;
+	border-radius: 0% 10% 50% 0%;
+}
+
+.fa-user{
+	right: 0px;
+	background-color: #ff3636;
+	border-radius: 10% 0% 0% 50%;
+}
+
+.notifications{
+	margin-top: 15px;
+	position: absolute;
+}
+
+.heLogo{
+	padding: 10px;
+	width: 50px;
+	padding-top: 5px;
+	height: 40px;
+	color: #000;
+	font-size: 30px;
+	position: absolute;
 }
 
 .hd-1{
+	text-align: center;
 	background-color: #545454;
+	width: 60%;
 }
 
 .logo{
-	font-size: 10em;
+	padding-top: 10px;
+	font-size: 5em;
+	text-align: center;
 }
 
 h1{
-	padding-top: 30px;
-	font-size: 5em
+	padding-top: 40px;
+	font-size: 2em
 }
 
 hr{
-	border: 1px solid red
+	border: 1px solid red;
 }
 
 .line{
 	background-color: red;
-	width: 8em;
+	width: 5em;
 }
 
 .r2{
-	text-align: center;
+	color: #fff;
 }
 
 .log-1{
@@ -50,4 +77,65 @@ hr{
 
 .log-5{
 	background-color: #ffe600
+}
+
+.log-1, .log-2, .log-3, .log-4, .log-5{
+	height: 150px
+}
+
+@media (max-width: 576px){
+	.r1, .r2{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.notifications{
+		position: fixed;
+		margin: 0px;
+	}
+
+	.fa-envelope{
+		background-color: #4a4a4a;
+	}
+
+	.fa-user{
+		background-color: #4a4a4a;
+	}
+
+	.heLogo{
+		color: #c4ad00;
+	}
+
+	.hd-1{
+		order: -1;
+		width: 100%;
+		height: 150px;
+	}
+}
+
+@media (min-width: 577px) and (max-width: 900px){
+	.r1{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.hd-1{
+		flex-direction: column;
+		height: 150px;
+		width: 100%;
+		order: -1
+	}
+
+	.fa-envelope{
+		background-color: inherit;
+	}
+
+	.fa-user{
+		background-color: inherit;
+	}
+
+	.heLogo{
+		margin: 5px 30px 0px;
+		color: #fff
+	}
 }

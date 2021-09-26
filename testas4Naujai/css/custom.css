@@ -1,0 +1,76 @@
+.row{
+	color: #fff;
+}
+
+.fa-envelope{
+	background-color: #fff;
+	left: 0px;
+}
+
+.fa-user{
+	background-color: #ff3636;
+	right: 0px
+}
+
+.heLogo{
+	padding: 5px;
+	width: 65px;
+	height: 40px;
+	color: #000;
+	font-size: 30px;
+	position: absolute;
+}
+
+.hd-1{
+	text-align: center;
+	background-color: #545454;
+	width: 60%;
+}
+
+.logo{
+	padding-top: 10px;
+	font-size: 5em;
+	text-align: center;
+}
+
+h1{
+	padding-top: 40px;
+	font-size: 2em
+}
+
+hr{
+	border: 1px solid red
+}
+
+.line{
+	background-color: red;
+	width: 5em;
+}
+
+.r2{
+	color: #fff;
+}
+
+.log-1{
+	background-color: #ffee00;
+}
+
+.log-2{
+	background-color: #ffb700
+}
+
+.log-3{
+	background-color: #ff8800
+}
+
+.log-4{
+	background-color: #ff7700
+}
+
+.log-5{
+	background-color: #ffe600
+}
+
+.log-1, .log-2, .log-3, .log-4, .log-5{
+	height: 150px
+}
