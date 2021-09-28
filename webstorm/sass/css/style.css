@@ -1,0 +1,27 @@
+.button, section article a {
+  border-radius: 10px;
+  padding: 5px;
+  border: 1px #000 solid;
+  text-align: center; }
+
+.container {
+  background-color: #FF5733; }
+
+nav {
+  background-color: #31d2f2; }
+  nav li {
+    display: inline-block;
+    background-color: #343a40;
+    padding: 5px; }
+    nav li a {
+      color: #13653f;
+      text-decoration: none; }
+      nav li a:hover {
+        color: #170F04 #170F04;
+        background-color: #e4f #e4f; }
+
+section article a:hover {
+  background-color: #FFFFFF;
+  color: #170F04; }
+
+/*# sourceMappingURL=style.css.map */

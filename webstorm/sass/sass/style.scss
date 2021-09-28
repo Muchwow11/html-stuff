@@ -1,0 +1,31 @@
+@import "var";
+@import "components";
+@import "mixin";
+.container{
+  background-color: #FF5733;
+}
+
+nav{
+  background-color: #31d2f2;
+  li{
+    display: inline-block;
+    background-color: #343a40;
+    padding: 5px;
+    a{
+      color: #13653f;
+      text-decoration: none;
+      @include ez-hover($foColor, $bgColor)
+    }
+  }
+}
+section{
+  article{
+    a{
+      @extend .button;
+      &:hover{
+        background-color: #FFFFFF;
+        color: #170F04;
+      }
+    }
+  }
+}
