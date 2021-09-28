@@ -1,0 +1,63 @@
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+header{
+  color: #FFFFFF;
+  background-color: #009b00;
+  text-align: center;
+
+}
+form{
+  display: flex;
+  justify-content: center;
+    input{
+      width: 1000px;
+      height: 80px;
+      &::placeholder{
+        font-size: 2em;
+      }
+    }
+}
+nav{
+text-align: center;
+  li{
+    display: inline-block;
+    border-right: 1px #919191 solid;
+    padding-right: 5px;
+    &:last-child{
+      border-right: none;
+    }
+  a{
+    text-decoration: none;
+   }
+  }
+}
+
+section{
+  color: #000;
+  text-align: center;
+  div{
+    padding-top: 100px;
+    &:nth-child(odd){
+        background-color: #ff88dd;
+    }
+    &:nth-child(even){
+
+    }
+    p{
+      background-color: #000000;
+      }
+    }
+  }
+

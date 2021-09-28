@@ -5,8 +5,12 @@
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/webstorm/testas5/bootstrap/build" />
+      <excludeFolder url="file://$MODULE_DIR$/webstorm/testas5/bootstrap/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/webstorm/testas5/bootstrap/.pub" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
   </component>
 </module>
