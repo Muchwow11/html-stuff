@@ -2,18 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Scheherazade&display=swap" rel="stylesheet">
     <title>Sass uzduotis</title>
     <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid g-0">
         <header>
             <h1>My Shopping List</h1>
         </header>
-        <form>
-            <input type="text" placeholder="I need to buy...">
-        </form>
         <nav>
+            <form>
+                <input type="text" placeholder="I need to buy...">
+            </form>
             <ul>
                 <li><a href="#">Double-click to edit</a></li>
                 <li><a href="#">Click and drag to rearrange</a></li>
@@ -21,23 +24,25 @@
                 <li><a href="#">Hover and click "Delete" to delete</a></li>
             </ul>
         </nav>
-        <section class="row">
-            <div class="wordBox col">
-                <h2>Flowers</h2>
-                <div>
-                    <p>Delete</p>
+        <section>
+            <div class="row g-0">
+                <div class="wordBox col bd-1 ">
+                    <h2>Flowers</h2>
+                    <div class="del">
+                        <p>Delete</p>
+                    </div>
                 </div>
+                <div class="wordBox col bd-2">
+                        <h2>A gift for mom's birthday</h2>
+                    </div>
+                    <div class="wordBox col bd-1">
+                        <h2>a laptop desk</h2>
+                    </div>
+                <div class="w-100"></div>
+                <div class="box col bd-2"></div>
+                <div class="box col bd-1"></div>
+                <div class="box col bd-2"></div>
             </div>
-            <div class="wordBox col">
-                    <h2>A gift for mom's birthday</h2>
-                </div>
-                <div class="wordBox col">
-                    <h2>a laptop desk</h2>
-                </div>
-            <div class="w-100"></div>
-            <div class="box col"></div>
-            <div class="box col"></div>
-            <div class="box col"></div>
         </section>
     </div>
 </body>

@@ -1,16 +1,7 @@
-@import "../node_modules/bootstrap/scss/functions";
-
-// 2. Include any default variable overrides here
-
-// 3. Include remainder of required Bootstrap stylesheets
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
-@import "../node_modules/bootstrap/scss/root";
-@import "../node_modules/bootstrap/scss/reboot";
-@import "../node_modules/bootstrap/scss/type";
-@import "../node_modules/bootstrap/scss/images";
-@import "../node_modules/bootstrap/scss/containers";
-@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/bootstrap";
+.container-fluid{
+  font-family: 'Scheherazade', serif;
+}
 
 header{
   color: #FFFFFF;
@@ -22,11 +13,12 @@ form{
   display: flex;
   justify-content: center;
     input{
+      font-size: 3em;
+      border-radius: 10px;
       width: 1000px;
       height: 80px;
-      &::placeholder{
-        font-size: 2em;
-      }
+      border-color: inherit;
+
     }
 }
 nav{
@@ -40,24 +32,40 @@ text-align: center;
     }
   a{
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
    }
   }
 }
 
 section{
-  color: #000;
   text-align: center;
-  div{
-    padding-top: 100px;
-    &:nth-child(odd){
-        background-color: #ff88dd;
-    }
-    &:nth-child(even){
+  color: #fff;
 
-    }
-    p{
-      background-color: #000000;
-      }
-    }
+  h2{
+    padding-top: 50px;
   }
+
+  .bd-1{
+    margin: 6%;
+    background-color: #ff88dd;
+  }
+  .bd-2{
+    margin: 6%;
+    background-color: #0c4128;
+  }
+  .del{
+    text-align: center;
+    background-color: #000000;
+    margin-top: 90px;
+  }
+
+  .wordBox{
+    height: 200px;
+  }
+
+  .box{
+    height: 200px;
+  }
+
+}
 
