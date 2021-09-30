@@ -1,0 +1,94 @@
+@import "../bootstrap/scss/bootstrap";
+.container-fluid{
+  font-family: 'Scheherazade', serif;
+}
+
+header{
+  color: #FFFFFF;
+  background-color: #009b00;
+  text-align: center;
+  height: 150px;
+  h1{
+    padding-top: 35px;
+    font-size: 4em;
+  }
+}
+
+nav{
+  text-align: center;
+  form{
+    padding-top: 20px;
+    input{
+      font-size: 3em;
+      border-radius: 20px;
+      width: 80%;
+      height: 80px;
+    }
+  }
+  li{
+    display: inline-block;
+    border-right: 1px #919191 solid;
+    padding-right: 5px;
+    &:last-child{
+      border-right: none;
+    }
+    a{
+      font-size: 2.5em;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  }
+}
+
+.row{
+  text-align: center;
+  padding-left: 30%;
+  color: #fff;
+  h2{
+    font-size: 50px;
+    padding-top: 40px;
+  }
+  .del{
+    background-color: #000;
+    margin-top: 110px;
+    font-size: 30px;
+  }
+  .bg-1, .bg-2{
+    width: 40%;
+    margin: 6%;
+    height: 250px;
+  }
+  .bg-1{
+    background-color: #ff5b6e;
+  }
+  .bg-2{
+    background-color: #009b00;
+  }
+}
+@include media-breakpoint-up(lg){
+  header{
+    height: 50px;
+    h1{
+      padding-top: 5px;
+      font-size: 2.5em;
+    }
+  }
+  nav{
+    form{
+      input{
+        font-size: 3em;
+        border-radius: 20px;
+        width: 90%;
+        height: 80px;
+      }
+    }
+    li{
+      a{
+        font-size: 2em;
+      }
+    }
+  }
+  .row{
+    padding: 0;
+  }
+}

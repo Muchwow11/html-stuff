@@ -11121,22 +11121,24 @@ header {
   color: #FFFFFF;
   background-color: #009b00;
   text-align: center;
+  height: 150px;
 }
-
-form {
-  display: flex;
-  justify-content: center;
-}
-form input {
-  font-size: 3em;
-  border-radius: 10px;
-  width: 1000px;
-  height: 80px;
-  border-color: inherit;
+header h1, header .h1 {
+  padding-top: 35px;
+  font-size: 4em;
 }
 
 nav {
   text-align: center;
+}
+nav form {
+  padding-top: 20px;
+}
+nav form input {
+  font-size: 3em;
+  border-radius: 20px;
+  width: 80%;
+  height: 80px;
 }
 nav li {
   display: inline-block;
@@ -11147,32 +11149,59 @@ nav li:last-child {
   border-right: none;
 }
 nav li a {
+  font-size: 2.5em;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
 
-section {
+.row {
   text-align: center;
+  padding-left: 30%;
   color: #fff;
 }
-section h2, section .h2 {
-  padding-top: 50px;
+.row h2, .row .h2 {
+  font-size: 50px;
+  padding-top: 40px;
 }
-section .bd-1 {
+.row .del {
+  background-color: #000;
+  margin-top: 110px;
+  font-size: 30px;
+}
+.row .bg-1, .row .bg-2 {
+  width: 40%;
   margin: 6%;
-  background-color: #ff88dd;
+  height: 250px;
 }
-section .bd-2 {
-  margin: 6%;
-  background-color: #0c4128;
+.row .bg-1 {
+  background-color: #ff5b6e;
 }
-section .del {
-  text-align: center;
-  background-color: #000000;
-  margin-top: 90px;
+.row .bg-2 {
+  background-color: #009b00;
 }
-section .wordBox, section .box {
-  height: 200px;
+
+@media (min-width: 992px) {
+  header {
+    height: 50px;
+  }
+  header h1, header .h1 {
+    padding-top: 5px;
+    font-size: 2.5em;
+  }
+
+  nav form input {
+    font-size: 3em;
+    border-radius: 20px;
+    width: 90%;
+    height: 80px;
+  }
+  nav li a {
+    font-size: 2em;
+  }
+
+  .row {
+    padding: 0;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
