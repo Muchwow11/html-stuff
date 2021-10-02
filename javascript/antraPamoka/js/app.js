@@ -101,10 +101,10 @@ let library = [
 ];
 
     for (let list of library){
-        for (genre in list){
+        for (let genre in list){
             if (genre === "books"){
                 for (let desc of list[genre]){
-                    for (bookDescript in desc){
+                    for (let bookDescript in desc){
                         let year = desc["year"];
                         if (year >= 2021){
                             desc["name"] = desc["name"].concat(" |Nauja Versija|");
@@ -116,7 +116,6 @@ let library = [
                     console.log("========")
                 }
             } else {
-                list["books"].Lenght;
                 console.log(" ")
                 console.log("Zanras: " + list[genre]);
                 console.log(" ")
