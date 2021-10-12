@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20%;
+    margin: 0;
+}
+div{
+    flex: 1 1 25%;
+    min-height: 150px;
+}
