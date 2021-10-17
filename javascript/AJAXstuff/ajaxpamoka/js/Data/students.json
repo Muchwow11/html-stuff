@@ -1,10 +1,10 @@
 [
   {
-    "name": "Tajus",
+    "name": "Donatas",
     "location": true
   },
   {
-    "name": "Donatas",
+    "name": "Tajus",
     "location": true
   },
   {
@@ -13,6 +13,14 @@
 },
   {
     "name": "Joris",
+    "location": false
+  },
+  {
+    "name": "Tomas",
+    "location": true
+  },
+  {
+    "name": "Viktoras",
     "location": false
   }
 ]
