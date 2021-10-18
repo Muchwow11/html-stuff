@@ -1,0 +1,18 @@
+[
+  {
+    "color": "blue",
+    "height": true
+  },
+  {
+    "color": "yellow",
+    "height": false
+  },
+  {
+    "color": "green",
+    "height": true
+  },
+  {
+    "color": "black",
+    "height": false
+  }
+]

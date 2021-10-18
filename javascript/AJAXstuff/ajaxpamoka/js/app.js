@@ -8,28 +8,16 @@ getData.onreadystatechange = function() {
     if (getData.readyState === 4) {
         const students = getData.responseText;
         const studName = JSON.parse(students);
-        const ulBad = document.querySelector('.bad');
-        const ulGud = document.querySelector('.gud')
+        const ul = document.querySelector('ul');
         for (const student in studName) {
-            const bad = document.createElement('li');
-            bad.classList.add('bad')
-            const gud = document.createElement('li')
-            const style = document.createElement('style')
-            const div = document.querySelector('div')
-            div.appendChild(style)
-            style.innerHTML = 'li::marker {color: #ff2222}'
-            if (studName[student].location === true){
-                gud.innerHTML = studName[student].name;
-                ulGud.appendChild(gud)
-                style.innerHTML = '.gud ::marker {color: #00ff00}'
+            const li = document.createElement('li');
+            ul.appendChild(li)
+            li.innerHTML = studName[student].name;
+            if (studName[student].location === false){
+                li.classList.add('nera');
             }else{
-                bad.innerHTML = studName[student].name;
-                ulBad.appendChild(bad);
-                style.innerHTML = '.bad ::marker {color: #ff2222}'
+                li.classList.add('yra');
             }
-
-
-            console.log(studName[student].location)
         }
     }
 }
