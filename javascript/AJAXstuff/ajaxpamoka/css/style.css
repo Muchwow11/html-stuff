@@ -1,7 +1,15 @@
+
+.yra {
+    list-style-type: square;
+
+}
 .yra::marker {
-    color: #00ff00
+    color: #00ff00;
+    font-size: 1.2em;
 }
 
 .nera::marker {
-    color: #ff2222
+
+    color: #ff2222;
+    font-size: 1.2em;
 }
