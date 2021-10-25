@@ -1,0 +1,31 @@
+@import "../bootstrap/scss/bootstrap.scss";
+body{
+  background-color: #32eeff;
+    h1{
+      font-size: 4em;
+      text-align: center;
+
+    }
+    form{
+      text-align: center;
+      font-size: 3em;
+      padding-top: 5px;
+      label{
+        width: 35%;
+      }
+      input{
+        margin-top: 10px;
+      }
+      .pCod{
+        width: 365px;
+      }
+      button{
+        width: 150px;
+        margin: 10px;
+        background:linear-gradient(to bottom,#1e43ff, #00b2ff) ;
+        border: inherit;
+      }
+    }
+}
+
+

@@ -3,49 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Pasto Kodu paieska</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
-<form method="get" action="//postit.lt/example/v2-adresu-ir-pasto-kodu-paieska">
-    <div class="item city">
-        <div class="key">
-            <label for="city">Miestas</label>
-        </div>
-        <div class="value">
-            <select id="city" class="select2 city" name="city" data-key="city" data-value="" data-placeholder="Pasirinkite miestą">
-            </select>
-        </div>
-    </div>
+<div class="container-fluid">
+    <h1>Pašto Kodų Paieška</h1>
+    <div class="row"></div>
+    <form>
 
-    <div class="item address">
-        <div class="key">
-            <label for="address">Adresas</label>
-        </div>
-        <div class="value">
-            <input id="address" class="address text" name="address" type="text" value="" placeholder="Įrašykite gatvę ir namo numerį">
-        </div>
-    </div>
-
-    <div class="item zipcode">
-        <div class="key">
-            <label for="zipcode">Pašto kodas</label>
-        </div>
-        <div class="value">
-            <input id="zipcode" class="zipcode text" type="text" name="zipcode" value="">
-            <div class="info">
-                Nežinai savo pašto kodo? <a href="https://postit.lt/" target="_blank">Pašto kodų paieška</a>.
-            </div>
-        </div>
-    </div>
-
-    <div class="item submit">
-        <div class="key">
-        </div>
-        <div class="value">
-            <div>Paspaudus siųsti bus atstatyti duomenys</div>
-            <button class="btn btn-primary" type="submit">Siųsti</button>
-        </div>
-    </div>
-</form>
+        <label>Miestas *</label>
+        <input type="text" class="city" placeholder="Iveskite Miesta" required>
+        <div class="w-100"></div>
+        <label >Gatve *</label>
+        <input type="text" class="street" placeholder="Iveskite gatve ir namo nr." required>
+        <div class="w-100"></div>
+        <label class="postCode">Pasto Kodas</label>
+        <input type="text" class="pCod" placeholder="Pasto Kodas">
+        <button class="submit">Ieskoti</button>
+    </form>
+</div>
+<script src="js/app.js"></script>
 </body>
 </html>

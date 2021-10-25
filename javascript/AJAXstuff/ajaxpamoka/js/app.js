@@ -1,5 +1,3 @@
-
-
 const getData = new XMLHttpRequest(); // SUKUREM OBJEKTA
 
 
