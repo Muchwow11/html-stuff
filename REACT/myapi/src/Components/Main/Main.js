@@ -1,6 +1,17 @@
 import Form from "../Form/Form";
-import Searcher from "../Searcher/Searcher";
-function  Main(){
+import React from "react";
+
+const Main = () =>{
+    // const [movieList,setMovies] = useState("")
+    // const movieHandler=(movie)=>{
+    //     setMovies(prevState => {
+    //         return [movie,...prevState]
+    //     });
+    //     const movies = movieList.map((movie)=>
+    //         (<Form title={movie.title} />
+    //         )
+    //     );
+    // }
     return  (<div>
         <Form />
 
