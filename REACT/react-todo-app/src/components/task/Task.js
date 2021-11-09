@@ -4,8 +4,9 @@ const Task = (props) => {
     const [status,setStatus] = useState(props.status)
     const [clas,setClass] = useState(props.title)
     const clickHandler = ()=>{
-            setClass("brauk")
-            setStatus("done")
+        setClass("brauk")
+        setStatus("done")
+
     }
 
     return(
