@@ -1,9 +1,9 @@
 import Main from "../Main/Main";
-import './style.css'
+import './css/custom.css'
 
 function  App(){
     return  (<div className={"container"}>
-        <Main className="row d-flex justify-content-center container"/>
+        <Main className="row container"/>
     </div>)
 }
 

@@ -54,29 +54,27 @@
 // for (var name in names){
 //     console.log(names[name])
 // }
-
-
-
-let names = [];
-var count = 5;
-for (var i = 0; i < count; i++) {
-    names.push(prompt("Ivesk varda"));
-    if (names == "Tajus"){
-        names.unshift
-        names.splice(0, 1)
-        console.log('not allowed')
-
-    }
-}
-
-
-
-console.log("sveciu sarasas:")
-for (var name in names){
-
-    console.log(names[name])
-}
-
+//
+// let names = [];
+// var count = 5;
+// for (var i = 0; i < count; i++) {
+//     names.push(prompt("Ivesk varda"));
+//     if (names == "Tajus"){
+//         names.unshift
+//         names.splice(0, 1)
+//         console.log('not allowed')
+//
+//     }
+// }
+//
+//
+//
+// console.log("sveciu sarasas:")
+// for (var name in names){
+//
+//     console.log(names[name])
+// }
+//
 
 
 

@@ -1,20 +1,17 @@
 import Form from "../Form/Form";
-import React from "react";
+import Article from "../Article/Article";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+import React, {useState} from "react";
 
 const Main = () =>{
-    // const [movieList,setMovies] = useState("")
-    // const movieHandler=(movie)=>{
-    //     setMovies(prevState => {
-    //         return [movie,...prevState]
-    //     });
-    //     const movies = movieList.map((movie)=>
-    //         (<Form title={movie.title} />
-    //         )
-    //     );
-    // }
+
     return  (<div>
+        <Header/>
+
         <Form />
 
+        <Footer />
     </div>)
 }
 
