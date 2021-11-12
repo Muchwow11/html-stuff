@@ -1,10 +1,17 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/Custom.css'
 import Main from "../Main/Main";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
+
 
 const App = () =>{
-    return(<div>
+    return(<div className="row container">
+            <Header/>
+
             <Main/>
+
+            <Footer/>
         </div>
     )
 }
